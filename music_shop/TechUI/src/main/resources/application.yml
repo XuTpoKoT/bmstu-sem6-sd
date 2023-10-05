@@ -1,0 +1,17 @@
+db:
+  url:
+    "jdbc:postgresql://localhost:5432/musicshop_db"
+  username:
+    "postgres"
+  password:
+    "postgres"
+logging:
+  console:
+    "false"
+  level:
+    com.music_shop.BL: INFO
+  pattern:
+    console:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: "my3.log"

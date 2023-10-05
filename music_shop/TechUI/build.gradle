@@ -1,0 +1,9 @@
+plugins {
+}
+
+dependencies {
+    implementation project(':BL')
+    implementation project(':DB')
+}
+
+description = 'TechUI'

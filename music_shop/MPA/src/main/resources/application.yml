@@ -1,0 +1,25 @@
+db:
+  url:
+    "jdbc:postgresql://localhost:5432/musicshop_db"
+  username:
+    "postgres"
+  password:
+    "postgres"
+server:
+  port: 8090
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled:
+          true
+logging:
+  level:
+    org.thymeleaf: ERROR
+    org.springframework.web: ERROR
+    com.music_shop.BL: INFO
+  pattern:
+    console: "[%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file:
+    name: "my.log"
