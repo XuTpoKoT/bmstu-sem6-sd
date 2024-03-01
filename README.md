@@ -14,9 +14,9 @@
 | доставка             | + | + |-|
 
 ## Use-Case - диаграмма
-![Use-Case](./docs/diagrams/useCase.pdf)
+![Use-Case](./docs/diagrams/useCase.svg)
 ## ER-диаграмма сущностей
-![ER](./docs/diagrams/er.pdf)
+![ER](./docs/diagrams/er.svg)
 ## Пользовательские сценарии (в текстовом виде)
 ### Неавторизованный пользователь
 * Войти/зарегистрироваться. Для этого нужно ввести логин и пароль.
