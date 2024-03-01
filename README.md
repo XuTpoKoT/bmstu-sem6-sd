@@ -46,10 +46,10 @@
 
 ## Описание типа приложения и выбранного технологического стека
 ### Тип приложения
- Web SPA
+ Web MPA
 ### Технологический стек:
-1. Backend: Java, Spring Framework
-2. Frontend: REACT
-3. СУБД: PostgreSQL
+1. Backend: Java, Spring Framework (Core, Security, MVC, Boot), Thymeleaf
+2. СУБД: PostgreSQL
 
 ## Верхнеуровневое разбиение на компоненты
+![components](./docs/diagrams/components.png)
